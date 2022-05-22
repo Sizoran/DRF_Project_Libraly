@@ -1,12 +1,8 @@
 import React from "react";
 
 
-function Footer(props) {
-  return <h1>Привет, {props.name}</h1>;
+function Footer() {
+  return <h1> Same Footer </h1>;
 }
 
-const element = <Footer name="Какой-то Footer" />;
-ReactDOM.render(
-  element,
-  document.getElementById('root')
-);
+export default Footer;
